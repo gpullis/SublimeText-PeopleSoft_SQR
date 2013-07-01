@@ -5,6 +5,10 @@
 # Temporary output files
 output/**
 
+# ST project file
+*.sublime-project
+*.sublime-workspace
+
 #############
 ## Windows detritus
 #############
