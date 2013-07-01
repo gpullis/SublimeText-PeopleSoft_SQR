@@ -1,0 +1,8 @@
+{
+	"cmd": ["$packages\\PeopleSoft_SQR\\bin\\sqrw.cmd","$file","$file_base_name"],
+	"working_dir": "$packages\\PeopleSoft_SQR\\output",
+	"selector": "source.SQR",
+	"file_regex": "^[ ]*Filename: \"(.*)\"",
+	"line_regex": "^[ ]*Error on line ([0-9]*):",
+	"shell": true
+}

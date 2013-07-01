@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+declare-report ${1:report_name}
+	layout=${2:default}
+	printer-type=${3:HP}${4:
+	orientation=${5:landscape}}
+end-declare
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>declare-report</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.SQR</scope>
+</snippet>

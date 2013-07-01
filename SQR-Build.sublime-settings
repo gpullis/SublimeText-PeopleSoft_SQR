@@ -1,0 +1,22 @@
+{
+	// Base directory for include files
+	"ps_home": "u:\\psfndev",
+
+	// Your user name, password, and database name using the format: 
+	// 	user/password@database 
+	// Leave blank to force SQRW to prompt you for the values.
+	"auth": "",
+
+	// The path to your sqrw.exe
+	"sqrw_path": "%ps_home%\\bin\\sqr\\ora\\binw",
+
+	// Locations of include files (SQR directories)
+	"includes": "%ps_home%\\usrsqr\\;%ps_home%\\sqr\\",
+
+	// Location of your PSSQR.INI file
+	"pssqr": "h:\\sqrs\\pssqr.ini",
+
+	// Location of your output files. By default, we'll use an output directory in
+	// your packages directory, but you can override it below.
+	"out": ".\\"
+}
